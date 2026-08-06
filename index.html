@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Uzef Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+
+    <div id="loader">
+
+        <h1>KAYUM</h1>
+
+        <p id="loading-text">
+            Initializing Portfolio...
+        </p>
+
+    </div>
+
+    <!-- Background -->
+
+    <div id="background">
+
+        <canvas id="matrix"></canvas>
+
+        <div class="grid"></div>
+
+    </div>
+
+    <!-- Navigation -->
+
+    <nav>
+
+        <div class="logo">
+            KAYUM
+        </div>
+
+        <ul>
+
+            <li><a href="#hero">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section id="hero">
+
+        <div id="hero-content">
+
+            <!-- Left -->
+
+            <div class="left">
+
+                <p class="hello">Hello, I'm</p>
+                <h1 id="name"> KAYUM</h1>
+                <h2><span id="typing"></span></h2>
+                <p class="description">
+
+                    Building AI applications,
+                    automation tools,
+                    and modern web applications.
+
+                </p>
+
+                <div class="buttons">
+                    <a href="#projects" class="btn1">Explore Projects</a>
+                    <a href="#contact" class="btn2">Contact Me</a>
+                </div>
+
+            </div>
+
+            <!-- Right -->
+
+            <div class="right">
+
+                <div class="developer">
+
+                    <!-- Head -->
+
+                    <div class="head">
+
+                        <div class="hair"></div>
+
+                        <div class="eye left-eye"></div>
+
+                        <div class="eye right-eye"></div>
+
+                        <div class="mouth"></div>
+
+                    </div>
+
+                    <!-- Body -->
+
+                    <div class="body">
+
+                        <div class="hood"></div>
+
+                        <div class="zip"></div>
+
+                    </div>
+
+                    <!-- Arms -->
+
+                    <div class="left-arm"></div>
+                    <div class="left-hand"></div>
+
+                    <div class="right-arm"></div>
+                    <div class="right-hand"></div>
+
+                    <!-- Legs -->
+
+                    <div class="left-leg"></div>
+                    <div class="right-leg"></div>
+
+                    <!-- Shoes -->
+
+                    <div class="left-shoe"></div>
+                    <div class="right-shoe"></div>
+
+                    <!-- Rope -->
+
+                    <div id="rope"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+<<!-- ================= ABOUT ================= -->
+
+<section id="about">
+
+    <h1 class="section-title">
+        About Me
+    </h1>
+
+    <div class="about-container">
+
+        <div class="about-left">
+
+            <div class="profile-card">
+
+                <h2>KAYUM</h2>
+
+                <p>Python Developer</p>
+
+            </div>
+
+        </div>
+
+        <div class="about-right">
+
+            <p>
+
+                I am a passionate Python Developer who enjoys
+                building AI applications, automation tools,
+                web applications, and solving real-world problems
+                through software.
+
+            </p>
+
+            <div class="about-info">
+
+                <div class="info-box">
+                    <h2>10+</h2>
+                    <p>Projects</p>
+                </div>
+
+                <div class="info-box">
+                    <h2>Python</h2>
+                    <p>Primary Language</p>
+                </div>
+
+                <div class="info-box">
+                    <h2>AI</h2>
+                    <p>Generative AI</p>
+                </div>
+
+                <div class="info-box">
+                    <h2>DevOps</h2>
+                    <p>Learning</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section id="skills">
+
+    <h1 class="section-title">
+        Skills
+    </h1>
+
+    <div class="skills-container">
+
+        <div class="skill">
+
+            <h3>Python</h3>
+
+            <div class="progress">
+                <div class="progress-bar python"></div>
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <h3>HTML</h3>
+
+            <div class="progress">
+                <div class="progress-bar html"></div>
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <h3>CSS</h3>
+
+            <div class="progress">
+                <div class="progress-bar css"></div>
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <h3>JavaScript</h3>
+
+            <div class="progress">
+                <div class="progress-bar js"></div>
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <h3>Flask</h3>
+
+            <div class="progress">
+                <div class="progress-bar flask"></div>
+            </div>
+
+        </div>
+
+        <div class="skill">
+
+            <h3>Git & GitHub</h3>
+
+            <div class="progress">
+                <div class="progress-bar git"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects">
+
+    <h1 class="section-title">
+        Projects
+    </h1>
+
+    <div class="project-container">
+
+        <div class="project-card">
+
+            <h2>AI Chatbot</h2>
+
+            <p>
+                Flask + Gemini AI chatbot with a modern UI.
+            </p>
+
+            <div class="project-buttons">
+
+                <button class="btn1">
+                    Live Demo
+                </button>
+
+               <a href="https://github.com/mohammaduzef" target="_blank" class="btn2">GitHub</a>
+
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <h2>Portfolio Website</h2>
+
+            <p>
+                Animated hacker-themed personal portfolio.
+            </p>
+
+            <div class="project-buttons">
+
+                <button class="btn1">
+                    Live Demo
+                </button>
+
+                <button class="btn2">
+                    GitHub
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <h2>Automation Tool</h2>
+
+            <p>
+                Python automation project for repetitive tasks.
+            </p>
+
+            <div class="project-buttons">
+
+                <button class="btn1">
+                    Live Demo
+                </button>
+
+                <button class="btn2">
+                    GitHub
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+    <h1 class="section-title">
+        Contact Me
+    </h1>
+
+    <div class="contact-container">
+
+        <p>
+            Interested in working together? Let's connect.
+        </p>
+
+        <div class="contact-buttons">
+            <p>
+    📧 kayumladkhan@email.com
+</p>
+
+            <a href="mailto:mohammaduzefbagewadi@gmail.com" class="btn1">
+                Email Me
+            </a><a href="https://github.com/" target="_blank" class="btn2">
+                GitHub
+            </a>
+
+            <a href="https://linkedin.com/" target="_blank" class="btn2">
+                LinkedIn
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <p>
+        © 2026 MOHAMMADUZEF. All Rights Reserved.
+    </p>
+
+</footer>
+
+<!-- GSAP -->
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
